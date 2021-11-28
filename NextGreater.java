@@ -1,5 +1,6 @@
 import java.util.*;
 public class NextGreater {
+    //TC (O(2N)+ O(2N))
     public static void print(int[] a){
         for(int i=0;i<a.length;i++)System.out.print(a[i]+" ");
         System.out.println();
